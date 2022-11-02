@@ -47,7 +47,7 @@ jobs:
         git config --global user.name 'JeongBG'
         #git add data.csv
         
-        git add 221102_CNN.txt
+        git add 221031_CNN.txt
         git commit -m '뉴스데이터 수집'
         
     # 푸쉬
