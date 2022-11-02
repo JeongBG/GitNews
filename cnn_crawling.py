@@ -23,7 +23,7 @@ container=soup.find('div', style='padding-left:10px;').find_all('p',class_='cnnB
 
 contents=''
 for i in container:
-    contents+='\n'+ i.get_text().strip()
+    contents +='\n'+ i.get_text().strip()
 
 contents=contents.replace("`","'")
 contents=contents.replace('   ',' ')
