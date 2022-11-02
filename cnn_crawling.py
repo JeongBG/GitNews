@@ -27,7 +27,6 @@ for i in container:
 
 contents=contents.replace("`","'")
 contents=contents.replace('   ',' ')
-
 file=open('{}{}{}_CNN.txt'.format(Year,Month,Day),'w')
 file.write(contents)
 file.close()
