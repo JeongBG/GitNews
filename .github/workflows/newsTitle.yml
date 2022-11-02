@@ -37,7 +37,8 @@ jobs:
     # 내가 만든 파이썬 파일을 실행                 
     - name: run my file
       run: |
-        python3 news.py
+        #python3 news.py
+        python3 cnn_crawling.py
         
     # 커밋
     - name: commits
