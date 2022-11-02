@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 Year=22
 Month=11
-Day=02
+Day=2
 
 Year=str(Year)
 Month=str(Month)
