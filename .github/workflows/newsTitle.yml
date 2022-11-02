@@ -37,8 +37,8 @@ jobs:
     # 내가 만든 파이썬 파일을 실행                 
     - name: run my file
       run: |
-        #python3 news.py
-        python3 cnn_crawling.py
+        python3 news.py
+        #python3 cnn_crawling.py
         
     # 커밋
     - name: commits
@@ -46,7 +46,7 @@ jobs:
         git config --global user.email 'jeongbg91@gmail.com'
         git config --global user.name 'JeongBG'
         git add data.csv
-        git commit -m '뉴스데이터 수집'
+        #git commit -m '뉴스데이터 수집'
         
     # 푸쉬
     - name: push
