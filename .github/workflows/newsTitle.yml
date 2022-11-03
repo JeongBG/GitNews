@@ -9,7 +9,7 @@ on:
   # 특정 시간이 될때마다 실행하라!
   # cron 표현식
   schedule:
-    - cron: 57 * * * *
+    - cron: 0 * * * *
   
   #push:
   #  branches: [ "main" ]
