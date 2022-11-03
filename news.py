@@ -12,4 +12,4 @@ for j in range(1, 100, 10):
         titles.append(i.text)
 
 df = pd.DataFrame({'Title': titles})
-df.to_csv('data.csv', encoding = 'utf-8', index = False)
+df.to_csv('data.csv', encoding = 'utf-8', index = False, mode = 'a')
