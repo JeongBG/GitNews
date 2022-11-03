@@ -11,5 +11,6 @@ for j in range(1, 50, 10):
 #         print(i.text)
         titles.append(i.text)
     
+    
 df = pd.DataFrame({'Title': titles})
 df.to_csv('News_data.csv', encoding = 'utf-8', index = False, mode = 'a')
