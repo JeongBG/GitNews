@@ -28,6 +28,6 @@ for i in container:
 contents=contents.replace("`","'")
 contents=contents.replace('   ',' ')
 contents = Year + Month + Day + '\n' + contents
-file=open('CNN_scripts.txt'.format(Year,Month,Day),'w')
+file=open('CNN_scripts.txt'.format(Year,Month,Day),'a')
 file.write(contents)
 file.close()
