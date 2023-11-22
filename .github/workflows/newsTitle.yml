@@ -8,8 +8,8 @@ name: 뉴스속보수집
 on:
   # 특정 시간이 될때마다 실행하라!
   # cron 표현식
-  # schedule:
-  #   - cron: '32 * * * *'
+  schedule:
+    - cron: '20 * * * *'
   
   push:
    branches: [ "main" ]
@@ -51,7 +51,7 @@ jobs:
       run: |
         git config --global user.email 'jeongbg91@gmail.com'
         git config --global user.name 'JeongBG'
-        git add News_data_new.csv
+        git add News_data.csv
         git commit -m '뉴스데이터 수집'
         
     # 푸쉬
