@@ -13,4 +13,4 @@ for j in range(1, 51, 10):
     
     
 df = pd.DataFrame({'Title': titles})
-df.to_csv('News_data_new.csv', encoding = 'utf-8', index = False, mode = 'a')
+df.to_csv('News_data.csv', encoding = 'utf-8', index = False, mode = 'a')
