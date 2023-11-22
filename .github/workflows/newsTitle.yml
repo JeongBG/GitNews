@@ -8,8 +8,8 @@ name: 뉴스속보수집
 on:
   # 특정 시간이 될때마다 실행하라!
   # cron 표현식
-  schedule:
-    - cron: '32 * * * *'
+  # schedule:
+  #   - cron: '32 * * * *'
   
   # push:
   #  branches: [ "main" ]
